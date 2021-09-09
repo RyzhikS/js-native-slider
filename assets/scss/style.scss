@@ -12,6 +12,7 @@ body {
     margin: 0;
     padding: 0;
 }
+
 /*
 essential styles:
 these make the slideshow work
@@ -73,6 +74,7 @@ just for appearance; change whatever you want
 .slide:nth-of-type(5) {
     background: purple;
 }
+
 .carousel {
     position: relative;
     height: 150px;
@@ -88,14 +90,14 @@ just for appearance; change whatever you want
     transform: translateY(20px);
 
     > * {
-    background-color: $color-gray;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    height: 40px;
-    cursor: pointer;
-    width: 40px;
-    user-select: none;
+        background-color: $color-gray;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 40px;
+        cursor: pointer;
+        width: 40px;
+        user-select: none;
     }
 }
 
@@ -116,7 +118,8 @@ just for appearance; change whatever you want
         cursor: pointer;
         width: 40px;
         user-select: none;
-        }
+    }
+
     .active {
         background-color: red;
     }
