@@ -12,32 +12,21 @@
 
 <body>
 
-    <div id="carousel" class="carousel">
+    <div id="custom-id" class="carousel">
         <div id="slides" class="slides">
-            <div class="slide active">1</div>
-            <div class="slide">2</div>
-            <div class="slide">3</div>
-            <div class="slide">4</div>
-            <div class="slide">5</div>
+            <div class="slide item active">1</div>
+            <div class="slide item">2</div>
+            <div class="slide item">3</div>
+            <div class="slide item">4</div>
+            <div class="slide item">5</div>
         </div>
 
-        <div id="indicators-container" class="indicators">
-            <div class="indicator active" data-slide-to="0"></div>
-            <div class="indicator" data-slide-to="1"></div>
-            <div class="indicator" data-slide-to="2"></div>
-            <div class="indicator" data-slide-to="3"></div>
-            <div class="indicator" data-slide-to="4"></div>
-        </div>
-
-        <div id="controls-container" class="controls">
-            <span id="pause-btn" class="control control--pause"><i class="far fa-pause-circle"></i></span>
-            <span id="prev-btn" class="control control--prev"><i class="fas fa-angle-left"></i></span>
-            <span id="next-btn" class="control control--next"><i class="fas fa-angle-right"></i></span>
-        </div>
 
     </div>
 
+    <script src="carousel-constructor.js"></script>
     <script src="main.js"></script>
+    <!-- <script src="base-carousel.js"></script> -->
 </body>
 
 </html>
