@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css" rel="stylesheet">
+    <title>Document</title>
+</head>
+
+<body>
+
+    <div id="carousel" class="carousel">
+        <div id="slides" class="slides">
+            <div class="slide active">1</div>
+            <div class="slide">2</div>
+            <div class="slide">3</div>
+            <div class="slide">4</div>
+            <div class="slide">5</div>
+        </div>
+
+        <div id="indicators-container" class="indicators">
+            <div class="indicator active" data-slide-to="0"></div>
+            <div class="indicator" data-slide-to="1"></div>
+            <div class="indicator" data-slide-to="2"></div>
+            <div class="indicator" data-slide-to="3"></div>
+            <div class="indicator" data-slide-to="4"></div>
+        </div>
+
+        <div id="controls-container" class="controls">
+            <span id="pause-btn" class="control control--pause"><i class="far fa-pause-circle"></i></span>
+            <span id="prev-btn" class="control control--prev"><i class="fas fa-angle-left"></i></span>
+            <span id="next-btn" class="control control--next"><i class="fas fa-angle-right"></i></span>
+        </div>
+
+    </div>
+
+    <script src="main.js"></script>
+</body>
+
+</html>
