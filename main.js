@@ -1,6 +1,9 @@
-let carousel = new SwipeCarousel('#custom-id', '.item');
+import Carousel from './swipe-carousel.js'
+let carousel = new Carousel({
+    interval: 3000,
+    isPlaying: false
+});
 
-console.log(carousel);
 carousel.init();
-carousel._pause();
+// carousel._pause();
 
